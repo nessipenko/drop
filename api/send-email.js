@@ -1,6 +1,6 @@
+require('dotenv').config();
 const nodemailer = require('nodemailer');
 const sendEmail = async (req, res) => {
-
     if (req.method === 'POST') {
         const { email } = req.body;
 
@@ -9,27 +9,27 @@ const sendEmail = async (req, res) => {
             port: 465,
             secure: true,
             auth: {
-                user: process.env.EMAIL_USER,
-                pass: process.env.EMAIL_PASS
+                user: 'tech2025@list.ru',
+                pass: 'wuYRBak0Ax3N2hTJxm0E'
             }
         });
 
         const mailOptions = {
-            from: process.env.EMAIL_USER,
-            to: process.env.EMAIL_USER,
+            from: 'tech2025@list.ru',
+            to: 'tech2025@list.ru',
             subject: 'New Contact Request',
             text: `You have a new contact request from ${email}.`
         };
 
         try {
             await transporter.sendMail(mailOptions);
-            res.status(200).json({ message: 'Email sent successfully' });
+            res.status(200).json({ message: 'Email sent successfully' }); // Вернуть успешный JSON-ответ
         } catch (error) {
             console.error('Error sending email:', error);
-            res.status(500).json({ message: 'Error sending email' });
+            res.status(500).json({ message: 'Error sending email' }); // Вернуть JSON-ответ с ошибкой
         }
     } else {
-        res.status(405).json({ message: 'Method Not Allowed' });
+        res.status(405).json({ message: 'Method Not Allowed' }); // Обработать неподдерживаемые методы запросов
     }
 };
 
