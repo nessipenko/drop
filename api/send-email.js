@@ -9,14 +9,14 @@ const sendEmail = async (req, res) => {
             port: 465,
             secure: true,
             auth: {
-                user: 'tech2025@list.ru',
-                pass: 'wuYRBak0Ax3N2hTJxm0E'
+                user: process.env.EMAIL_USER,
+                pass: process.env.EMAIL_PASS
             }
         });
 
         const mailOptions = {
-            from: 'tech2025@list.ru',
-            to: 'tech2025@list.ru',
+            from: process.env.EMAIL_USER,
+            to: process.env.EMAIL_USER,
             subject: 'New Contact Request',
             text: `You have a new contact request from ${email}.`
         };
