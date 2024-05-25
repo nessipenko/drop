@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4939e7b9.css",
+    "main.js": "/static/js/main.3625a765.js",
+    "static/media/twitter.svg": "/static/media/twitter.a9d559607c4d52cd8a204a7f9909be94.svg",
+    "static/media/brand.png": "/static/media/brand.79628a86db3bbf71fac4.png",
+    "static/media/digital.png": "/static/media/digital.4762869f23b50ea9fea6.png",
+    "static/media/planet.svg": "/static/media/planet.5086d3ba9572397e1b46b760a43c77e8.svg",
+    "static/media/analytics.png": "/static/media/analytics.c1ef28b6c9cf8b0fa9b4.png",
+    "static/media/content.png": "/static/media/content.d4734069a44372681775.png",
+    "static/media/tiktok.svg": "/static/media/tiktok.fbf9148551a3eb09ba6ef103d65785b4.svg",
+    "static/media/meta.svg": "/static/media/meta.a985c08223f72c1d4a3dc1126885cf5a.svg",
+    "static/media/arrow.svg": "/static/media/arrow.9568506b0bf48b5ff55086082b96158e.svg",
+    "static/media/24.svg": "/static/media/24.8ba218a88d456484ebf0406a2ff78e78.svg",
+    "static/media/light.svg": "/static/media/light.0e02c25845fda1593c95b9c41f7b7091.svg",
+    "static/media/tg.svg": "/static/media/tg.bd4a4b2e12138b0384bf310d7e084b31.svg",
+    "static/media/logo.svg": "/static/media/logo.46d7aafae52f926951e944f038291731.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.7b324e181f076db99acc215663da9311.svg",
+    "static/media/scale.svg": "/static/media/scale.a5f4fb31afb6e68c9382e3bd4abb6c0f.svg",
+    "static/media/play.svg": "/static/media/play.29e7034267ff36f6abdf1713ce1504a0.svg",
+    "index.html": "/index.html",
+    "main.4939e7b9.css.map": "/static/css/main.4939e7b9.css.map",
+    "main.3625a765.js.map": "/static/js/main.3625a765.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4939e7b9.css",
+    "static/js/main.3625a765.js"
+  ]
+}
